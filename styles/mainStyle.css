@@ -26,6 +26,7 @@ body,html{
     margin-bottom:47px;
   }
   .accept-button{
+    text-decoration: none;
     width: 550px; /* Adjust the size as needed */
     height: 550px; /* Adjust the size as needed */
     margin-left: 3%;
