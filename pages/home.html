@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel = "stylesheet" href = "..\styles\mainStyle.css">
+        <script src="..\scripts\home.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="message">Sarah, will you be my Valentine?</h1>
+        <div class="content-container">
+            <a class = "reject-button" id='reject-button' href="rejected.html">
+                <img class="sad-face" src = "https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Sad-Face-Emoji.png">
+                <h3 class="no-response">No!</h3>
+            </a>
+            <a class = "accept-button" href="my_valentine.html">
+                <img class="heart" src = "https://content.mycutegraphics.com/graphics/hearts/red-heart.png" href="my_valentine.html">
+                <h3 class="yes-response">Yes!</h3>
+            </a>
+        <script>
+            var element = document.getElementById('reject-button');
+
+                element.addEventListener('mouseover', function() {
+                    // Call your JavaScript function here
+                    updateMargin();
+                });
+
+        </script>
+        </div>
+    
+    </body>
+</html>

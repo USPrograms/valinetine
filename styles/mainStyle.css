@@ -1,0 +1,83 @@
+body,html{
+    background-color: #ffc1c1;
+    border: 20px solid red;
+    margin:0;
+}
+.mea-culpa-regular {
+    font-family: "Mea Culpa", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:red;
+  }
+  .message{
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-family: "Mea Culpa", serif;
+    font-weight: 10%;
+    font-style: normal;
+    font-size: 800%;
+    color:red;
+    justify-self: center;
+    text-shadow: 0px 0px 1px white; 
+  }
+  .content-container{
+    justify-content: center;
+    display: flex;
+    margin-bottom:47px;
+  }
+  .accept-button{
+    width: 550px; /* Adjust the size as needed */
+    height: 550px; /* Adjust the size as needed */
+    margin-left: 3%;
+    border-radius: 20%;
+    background-color: #e080ff;
+
+  }
+  .reject-button{
+    text-decoration: none;
+    width: 550px; /* Adjust the size as needed */
+    height: 550px; /* Adjust the size as needed */
+    margin-right: 3%;
+    border-radius: 20%;
+    background-color: lightgray;
+    margin-top: 0px;
+   
+  }
+  .heart{
+    width: 400px; /* Adjust the size as needed */
+    height: 400px; /* Adjust the size as needed */
+    margin-top: 10%;
+    justify-self: center;
+    display: block;
+    background-size: contain;
+  }
+  .sad-face{
+    margin-top: 10%;
+    width: 400px; /* Adjust the size as needed */
+    height: 400px; /* Adjust the size as needed */
+    justify-self:center;
+    display: block;
+    
+    background-size: contain;
+  }
+  .yes-response{
+    margin-top: -1%;
+    font-family: "Mea Culpa", serif;
+    font-weight: 20%;
+    font-style: normal;
+    font-size: 400%;
+    color:red;
+    justify-self: center;
+    text-shadow: 0px 0px 5px white; 
+  }
+  .no-response{
+    margin-top: -1%;
+    font-family: "Mea Culpa", serif;
+    font-weight: 20%;
+    font-style: normal;
+    font-size: 400%;
+    color:grey;
+    justify-self: center;
+    text-shadow: 0px 0px 5px white; 
+  }
+

@@ -1,0 +1,58 @@
+body,html{
+    background-color: #ffc1c1;
+    border: 20px solid red;
+    margin:0;
+}
+.mea-culpa-regular {
+    font-family: "Mea Culpa", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:red;
+  }
+  .message{
+    margin-top: 0;
+    margin-bottom: 3%;
+    font-family: "Mea Culpa", serif;
+    font-weight: 10%;
+    font-style: normal;
+    font-size: 700%;
+    color:red;
+    justify-self: center;
+    text-shadow: 0px 0px 1px white; 
+  }
+  .message-body{
+    margin-top: 0;
+    margin: 2%;
+    font-family: "Mea Culpa", serif;
+    font-weight: 10%;
+    font-style: normal;
+    font-size: 250%;
+    color:red;
+    justify-self: left;
+    
+    text-shadow: 0px 0px 1px white; 
+  }
+  .filler{
+    
+    width: auto;
+  }
+  .button{
+    height: 8%;
+    width: 20%;
+    border: 0;
+    border-radius: 30px;
+    justify-self:center;
+    justify-content: center;
+    background-color: red;
+    margin-bottom: 2%;
+    
+  }
+  .button-text{
+    text-decoration: none;
+    font-family: "Mea Culpa", serif;
+    font-weight: 10%;
+    font-style: normal;
+    font-size: 300%;
+    margin-left: 25%;
+    color:white;
+  }
